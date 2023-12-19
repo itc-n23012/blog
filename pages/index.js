@@ -1,10 +1,11 @@
+import Container from 'components/container'
 import Hero from 'components/hero'
 const Home = () => {
   const props1 = { title: 'CUBE', subtitle: 'アウトプットしていくサイト' }
   return (
-    <>
+    <Container>
       <Hero {...props1} imageOn />
-    </>
+    </Container>
   )
 }
 
