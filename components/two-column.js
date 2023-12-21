@@ -5,7 +5,7 @@ const TwoColumn = ({ children }) => {
 }
 
 const TwoColumnMain = ({ children }) => {
-  return <div className={styles.main}>┆ {children}</div>
+  return <div className={styles.main}> {children}</div>
 }
 
 const TwoColumnSidebar = ({ children }) => {
