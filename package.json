@@ -18,6 +18,7 @@
     "html-react-parser": "^5.1.0",
     "html-to-text": "^9.0.5",
     "microcms-js-sdk": "^2.7.0",
+    "micromatch": "^4.0.5",
     "next": "14.0.4",
     "plaiceholder": "^2.5.0",
     "react": "^18",
