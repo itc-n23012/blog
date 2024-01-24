@@ -15,7 +15,7 @@ const UserDetails = ({ user, todos }) => {
       <ul>
         {todos.map(todo => (
           <li key={todo.id}>
-            {todo.completed ? ':太い丸:' : ':x:'} {todo.title}
+            {todo.completed ? ':◎:' : ':✕:'} {todo.title}
           </li>
         ))}
       </ul>
